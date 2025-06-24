@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello World</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rohit Karnaty</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: sans-serif; scroll-behavior: smooth; }
+    section { min-height: 100vh; padding: 60px; display: flex; align-items: center; justify-content: center; }
+    #hero { background: #f0f0f0; }
+    #about { background: #ffffff; }
+    #projects { background: #e0f7fa; }
+  </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>Welcome to my personal website hosted on GitHub Pages.</p>
+
+  <section id="hero" data-aos="fade-up">
+    <h1>Hello, I'm Rohit</h1>
+    <p>RF Engineer • Researcher • Cat Lover</p>
+  </section>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I work on GaN PAs and love building RF circuits with creative flair.</p>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <p>Here are some of my technical and academic projects.</p>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
